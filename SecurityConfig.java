@@ -16,6 +16,7 @@ import org.springframework.security.web.SecurityFilterChain;
 public class SecurityConfig {
 
     private final EntraIdRoleConverter entraIdRoleConverter;
+    private final int aNumber = 0;
 
     public SecurityConfig(EntraIdRoleConverter entraIdRoleConverter) { //constructor injection
         this.entraIdRoleConverter = entraIdRoleConverter;
